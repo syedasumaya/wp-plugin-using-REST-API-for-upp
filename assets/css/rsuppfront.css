@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 20, 2017, 11:01:51 AM
+    Author     : Syeda Sumaya Yesmin
+*/
+
+.uppForm{
+    width: 100%;
+}
+.uppForm input[type="text"], .uppForm select, .uppForm textarea, .uppForm label{
+    //margin-bottom: 10px!important;
+}
+.uppForm label.address{ font-weight: bold; }
+
+.uppForm > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+
+.uppForm > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+.uppForm > div > div,
+.uppForm > div > fieldset > div {
+  width: 75%;
+  float: right;
+}
+.rs-upp-error-msg {
+    color: red;
+    font-weight: bold;
+}
+
+/**********************form (Vertical) css*********************/
+#uppForm_rscontact.rs-upp-form-wrap, .rs-upp-form-wrap {
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    background-color: #273245;
+    color: #fff;
+}
+#uppForm_rscontact.rs-upp-form-wrap h2, .rs-upp-form-wrap h2 {
+    width: 100%;
+    text-align: center !important;
+    color: #fff;
+    padding: 20px 20px 50px 20px;
+}
+.rs-upp-form-wrap select, .rs-upp-form-wrap input[type=text], .rs-upp-form-wrap input[type=number], .rs-upp-form-wrap textarea,
+#uppForm_rscontact.rs-upp-form-wrap select, #uppForm_rscontact.rs-upp-form-wrap [type=text], #uppForm_rscontact.rs-upp-form-wrap [type=number], #uppForm_rscontact.rs-upp-form-wrap textarea{
+    width: 100%;
+    
+}
+.rs-upp-form-wrap  form , #uppForm_rscontact.rs-upp-form-wrap form{
+    text-align: center;
+}
+.rs-upp-form-wrap  form  label, #uppForm_rscontact.rs-upp-form-wrap form label{
+    text-align: left;
+}
+.rs-upp-form-wrap .help-inline-error{
+    color: red;
+}
+.rs-upp-form-wrap input[type=text], .rs-upp-form-wrap select, #uppForm_rscontact.rs-upp-form-wrap input[type=text], #uppForm_rscontact.rs-upp-form-wrap select {
+    zoom: 1;
+    font-family: OpensansRegular, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+    background: #273245;
+    border: 0;
+    border: 1px solid #d3d3db;
+    outline: none;
+    padding: 15px 0 15px 40px;
+    border-radius: 5px;
+    width: 100%;
+}
+.rs-upp-form-wrap input[type=text]:focus, .rs-upp-form-wrap select:focus,
+#uppForm_rscontact.rs-upp-form-wrap input[type=text]:focus, #uppForm_rscontact.rs-upp-form-wrap select:focus{
+    color: #fff;
+    border: 1px solid #05d364;
+}
+.rs-upp-form-wrap input[type=button], #uppForm_rscontact.rs-upp-form-wrap input[type=button]{
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    background: #05d364;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 24px 20px;
+    border-radius: 5px;
+    width: 50%;
+    border-radius: 5px;
+}
+.rs-upp-form-wrap input[type=button]:hover, #uppForm_rscontact.rs-upp-form-wrap input[type=button]:hover{
+    background: #00a64d;
+    box-shadow: 0 0 25px 0 rgba(5, 211, 100, 0.6);
+}
+
+/************************* form (horizontal) css*************************************/
+.rs-upp-form-wrap.horizontal {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    background-color: #fff;
+    color: #273245;
+}
+.rs-upp-form-wrap.horizontal h2 {
+    width: 100%;
+    text-align: center !important;
+    color: #273245;
+    padding: 20px 20px 50px 20px;
+}
+.rs-upp-form-wrap.horizontal div.element-input{
+    float: left;
+    overflow: hidden;
+    //width: 28%;
+    clear: none;
+    margin-right: 15px;
+}
+.rs-upp-form-wrap.horizontal div.element-input label{
+    display: none;
+}
+.rs-upp-form-wrap.horizontal input[type=button] {
+    width: 100%;
+    padding: 24px;
+}
+.rs-upp-form-wrap.horizontal input[type=text], .rs-upp-form-wrap.horizontal select {
+    border: 1px solid #d3d3db;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 24px;
+    color: #273245;
+}
+.rs-upp-form-wrap.horizontal .help-inline-error {
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    word-wrap: break-word;
+    display: block;
+}
+
